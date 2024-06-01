@@ -35,6 +35,8 @@
 #include "ci_lab_msgids.h"
 #endif
 
+#include "tec_msgids.h"
+
 #ifdef HAVE_SAMPLE_APP
 #include "sample_app_msgids.h"
 #endif
@@ -76,6 +78,8 @@ TO_LAB_Subs_t TO_LAB_Subs = {.Subs = {/* CFS App Subscriptions */
                                       {CFE_SB_MSGID_WRAP_VALUE(CFE_EVS_SHORT_EVENT_MSG_MID), {0, 0}, 32},
                                       {CFE_SB_MSGID_WRAP_VALUE(CFE_ES_APP_TLM_MID), {0, 0}, 4},
                                       {CFE_SB_MSGID_WRAP_VALUE(CFE_ES_MEMSTATS_TLM_MID), {0, 0}, 4},
+
+                                      {CFE_SB_MSGID_WRAP_VALUE(TEC_HK_TLM_MID), {0, 0}, 4},
 
 #ifdef HAVE_CI_LAB
                                       {CFE_SB_MSGID_WRAP_VALUE(CI_LAB_HK_TLM_MID), {0, 0}, 4},
