@@ -79,7 +79,6 @@ TO_LAB_Subs_t TO_LAB_Subs = {.Subs = {/* CFS App Subscriptions */
                                       {CFE_SB_MSGID_WRAP_VALUE(CFE_ES_APP_TLM_MID), {0, 0}, 4},
                                       {CFE_SB_MSGID_WRAP_VALUE(CFE_ES_MEMSTATS_TLM_MID), {0, 0}, 4},
 
-                                      {CFE_SB_MSGID_WRAP_VALUE(TEC_HK_TLM_REMAP_MID), {0, 0}, 4},
                                       {CFE_SB_MSGID_WRAP_VALUE(TEC_HK_TLM_MID), {0, 0}, 4},
 
 #ifdef HAVE_CI_LAB
